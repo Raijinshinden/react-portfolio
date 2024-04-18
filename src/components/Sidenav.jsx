@@ -5,15 +5,15 @@ function Sidenav() {
 
     const [nav, setNav] = useState(false)
     const handleNav = () => {
-        setNav(!nav)
-    }
+        setNav(!nav);
+    };
 
   return (
     <div>
         <AiOutlineMenu />
 
     </div>
-  )
-}
+  );
+};
 
 export default Sidenav
