@@ -1,4 +1,5 @@
 import React from 'react'
+import {TypeAnimation} from 'react-type-animation'
 
 function Main() {
   return (
@@ -9,7 +10,26 @@ function Main() {
         <div className='w-full h-screen absolute top-0 left-0 bg-white/25'>
         <div>
             <h1>I'm Ryan</h1>
-            <h2>I'm a </h2>
+            <h2>
+              I'm a 
+              <TypeAnimation
+                sequence={[
+                // Same substring at the start will only be typed out once, initially
+                'Developer',
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                'Coder',
+                1000,
+                'We produce food for Guinea Pigs',
+                1000,
+                'We produce food for Chinchillas',
+                1000
+                ]}
+                wrapper="span"
+                speed={50}
+                style={{ fontSize: '1em', paddingLeft: '5px'}}
+                repeat={Infinity}
+                />
+            </h2>
         </div>
         </div>
     </div>
