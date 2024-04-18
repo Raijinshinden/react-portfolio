@@ -16,13 +16,11 @@ function Main() {
                 sequence={[
                 // Same substring at the start will only be typed out once, initially
                 'Developer',
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                2000, // wait 2s before replacing "Developer" with "Coder"
                 'Coder',
-                1000,
-                'We produce food for Guinea Pigs',
-                1000,
-                'We produce food for Chinchillas',
-                1000
+               2000,
+                'Tech Enthusiast',
+                2000,
                 ]}
                 wrapper="span"
                 speed={50}
@@ -30,6 +28,9 @@ function Main() {
                 repeat={Infinity}
                 />
             </h2>
+            <div>
+                
+            </div>
         </div>
         </div>
     </div>
