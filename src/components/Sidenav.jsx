@@ -13,7 +13,12 @@ function Sidenav() {
         <AiOutlineMenu onClick={handleNav} className='absolute top-4 right-4 z-[99] md:hidden'/>
         {
             nav ? (
-                <div></div>
+                <div>
+                    <a href="main">
+                        <AiOutlineHome size={20} />
+                        <span>Home</span>
+                    </a>
+                </div>
             )
             : (
                 <div></div>
