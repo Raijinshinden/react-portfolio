@@ -56,9 +56,11 @@ function Sidenav() {
             : (
                 ''
             )}
-            <div>
+            <div className='md:block hidden'>
                 <div>
-                    <a href="#main"></a>
+                    <a href="#main" className=''>
+                        <AiOutlineHome />
+                    </a>
                 </div>
             </div>
 
