@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {AiOutlineMenu} from 'react-icons/ai'
+import {AiOutlineMenu, AiOutlineHome} from 'react-icons/ai'
 
 function Sidenav() {
 
