@@ -30,7 +30,7 @@ function Main() {
                 />
             </h2>
             <div>
-                <FaTwitter size={20}/>
+                <FaTwitter className='cursor-ponter' size={20}/>
                 <FaFacebook size={20}/>
                 <FaInstagram size={20}/>
                 <FaLinkedin size={20}/>
