@@ -33,7 +33,7 @@ function Main() {
                 <FaTwitter className='cursor-ponter' size={20}/>
                 <FaFacebook className='cursor-ponter' size={20}/>
                 <FaInstagram className='cursor-ponter' size={20}/>
-                <FaLinkedin className='cursor-ponter' size={20}/> 
+                <FaLinkedin className='cursor-ponter' size={20}/> p
             </div>
         </div>
         </div>
