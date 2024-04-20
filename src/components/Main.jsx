@@ -31,7 +31,7 @@ function Main() {
             </h2>
             <div>
                 <FaTwitter size={20}/>
-                <FaFacebook />
+                <FaFacebook size={20}/>
                 <FaInstagram />
                 <FaLinkedin />
             </div>
