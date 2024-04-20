@@ -30,10 +30,10 @@ function Main() {
                 />
             </h2>
             <div>
-                <FaTwitter className='cursor-ponter' size={20}/>
-                <FaFacebook className='cursor-ponter' size={20}/>
-                <FaInstagram className='cursor-ponter' size={20}/>
-                <FaLinkedin className='cursor-ponter' size={20}/> 
+                <FaTwitter className='cursor-pointer' size={20}/>
+                <FaFacebook className='cursor-pointer' size={20}/>
+                <FaInstagram className='cursor-pointer' size={20}/>
+                <FaLinkedin className='cursor-pointer' size={20}/> 
             </div>
         </div>
         </div>
