@@ -8,8 +8,8 @@ function Main() {
         <img className='w-full h-screen object-cover object-left scale-x-[-1]' 
         src='https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?q=80&w=843&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' 
         />
-        <div className='w-full h-screen absolute top-0 left-0 bg-white/25'>
-          <div>
+        <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
+          <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
             <h1>I'm Ryan</h1>
             <h2>
               I'm a 
