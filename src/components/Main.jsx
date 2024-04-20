@@ -30,7 +30,7 @@ function Main() {
                 />
             </h2>
             <div>
-                <FaTwitter />
+                <FaTwitter size={20}/>
                 <FaFacebook />
                 <FaInstagram />
                 <FaLinkedin />
