@@ -1,5 +1,6 @@
 import React from 'react'
 import {TypeAnimation} from 'react-type-animation'
+import {FaTwitter, FaFacebook, FaInstagram, FaLinkedin}
 
 function Main() {
   return (
