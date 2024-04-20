@@ -29,7 +29,8 @@ function Main() {
                 />
             </h2>
             <div>
-                
+                <FaTwitter />
+                <FaFacebook />
             </div>
         </div>
         </div>
