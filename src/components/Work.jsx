@@ -18,7 +18,7 @@ const data = [
 ]
 const Work = () => {
   return (
-    <div id="work">Work</div>
+    <div id="work" className='max-w'>Work</div>
   )
 }
 
