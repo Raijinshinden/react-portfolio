@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectItem from './ProjectItem'
-import propertyImg from '../assets/property.jpg'
+import gymImg from '../assets/gym.jpg'
 
 const Projects = () => {
   return (
