@@ -18,7 +18,7 @@ const data = [
 ]
 const Work = () => {
   return (
-    <div>Work</div>
+    <div id="work">Work</div>
   )
 }
 
