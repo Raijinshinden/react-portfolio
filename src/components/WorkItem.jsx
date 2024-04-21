@@ -2,7 +2,7 @@ import React from 'react'
 
 const WorkItem = () => {
   return (
-    <ol>WorkItem</ol>
+    <ol className='flex'>WorkItem</ol>
   )
 }
 
