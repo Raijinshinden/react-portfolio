@@ -19,7 +19,7 @@ const data = [
 const Work = () => {
   return (
     <div id="work" className='max-w-[1040px] mg-auto md:pl-20 p-4 py-16'>
-        <h1 className='text-4xl font-bold text-[#]'>Work</h1>
+        <h1 className='text-4xl font-bold text-[#001b5e]'>Work</h1>
     </div>
   )
 }
