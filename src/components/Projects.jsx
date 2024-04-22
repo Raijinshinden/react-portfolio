@@ -10,7 +10,8 @@ const Projects = () => {
         <p className='text-center py-8'>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, rem quibusdam amet deleniti deserunt cum cumque error porro id voluptates eveniet sequi fugiat voluptatibus. Vero sunt unde asperiores nam quidem?
         </p>
-        <div className=''>
+        <div className='grid sm:grid-cols-2 gap-12'>
+            <ProjectItem />  
             <ProjectItem />
         </div>
     </div>
