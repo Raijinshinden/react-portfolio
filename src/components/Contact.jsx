@@ -10,14 +10,14 @@ const Contact = () => {
                     <label className='uppercase text-sm py-2'>Name</label>
                     <input className='border-2 rounded-lg p-3 flex border-gray-300' type='text' name='name' />
                 </div>
-                <div>
+                <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>Phone Number</label>
                     <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name='phone' />
                 </div>
             </div>
-            <div>
+            <div className='flex flex-col py-2'>
                 <label className='uppercase text-sm py-2'>Email</label>
-                <input type='email' name='name' />    
+                <input className='border-2 rounded-lg p-3 flex border-gray-300' type='email' name='name' />    
             </div>
             <div>
                 <label className='uppercase text-sm py-2'>Subject</label>
