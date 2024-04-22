@@ -8,11 +8,11 @@ const Contact = () => {
             <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                 <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>Name</label>
-                    <input type='text' name='name' />
+                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type='text' name='name' />
                 </div>
                 <div>
                     <label className='uppercase text-sm py-2'>Phone Number</label>
-                    <input type="text" name='phone' />
+                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name='phone' />
                 </div>
             </div>
             <div>
