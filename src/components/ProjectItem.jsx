@@ -9,6 +9,9 @@ const ProjectItem = ({img, title}) => {
                 {title}
             </h3>
             <p>React Js</p>
+            <a href='/'>
+                <p>More Info</p>
+            </a>
         </div>
     </div>
   )
